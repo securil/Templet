@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <title>데일리/비즈니스 아이콘</title>
+  <!-- 배경 원 -->
+  <circle cx="40" cy="40" r="38" fill="#e6f7f7" stroke="#00b2b2" stroke-width="2"/>
+  
+  <!-- 데일리/비즈니스 아이콘: 왼쪽은 캐주얼, 오른쪽은 비즈니스 모드 -->
+  <g fill="none" stroke="#00b2b2" stroke-width="2">
+    <!-- 중앙 분리선 -->
+    <line x1="40" y1="20" x2="40" y2="60" stroke-dasharray="4,2"/>
+    
+    <!-- 왼쪽: 캐주얼/데일리 룩 (티셔츠) -->
+    <g transform="translate(0,2)">
+      <!-- 티셔츠 형태 -->
+      <path d="M15,25 L28,20 L32,26 L32,50 L20,55 L15,25" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- 넥라인 -->
+      <path d="M28,20 C28,22 26,24 28,26"/>
+      <!-- 소매 -->
+      <path d="M32,26 L37,29"/>
+    </g>
+    
+    <!-- 오른쪽: 비즈니스 룩 (셔츠와 넥타이) -->
+    <g transform="translate(0,2)">
+      <!-- 셔츠 형태 -->
+      <path d="M65,25 L52,20 L48,26 L48,50 L60,55 L65,25" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- 셔츠 카라 -->
+      <path d="M52,20 L50,24 L52,28" stroke-linecap="round"/>
+      <path d="M50,24 L48,26" stroke-linecap="round"/>
+      
+      <!-- 넥타이 -->
+      <path d="M50,24 L52,35 L50,45 L52,50" fill="none" stroke="#00b2b2" stroke-width="1.5"/>
+    </g>
+    
+    <!-- 아이콘 설명 텍스트 -->
+    <text x="25" y="62" text-anchor="middle" font-family="Arial" font-size="8" fill="#00b2b2">DAILY</text>
+    <text x="55" y="62" text-anchor="middle" font-family="Arial" font-size="8" fill="#00b2b2">BUSINESS</text>
+  </g>
+  
+  <!-- 아이콘 설명 -->
+  <text x="40" y="70" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="9" fill="#00b2b2">VERSATILE STYLE</text>
+</svg>

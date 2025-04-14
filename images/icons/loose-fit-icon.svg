@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <title>루즈핏 아이콘</title>
+  <!-- 배경 원 -->
+  <circle cx="40" cy="40" r="38" fill="#e6f7f7" stroke="#00b2b2" stroke-width="2"/>
+  
+  <!-- 루즈핏 셔츠 실루엣 -->
+  <g fill="none" stroke="#00b2b2" stroke-width="2" stroke-linecap="round">
+    <!-- 셔츠 넥라인 -->
+    <path d="M32,18 L40,22 L48,18"/>
+    
+    <!-- 어깨와 소매 부분 -->
+    <path d="M32,18 L24,24 L20,38"/>
+    <path d="M48,18 L56,24 L60,38"/>
+    
+    <!-- 셔츠 몸통 - 넓고 루즈한 핏 표현 -->
+    <path d="M24,24 Q20,40 22,60"/>
+    <path d="M56,24 Q60,40 58,60"/>
+    
+    <!-- 셔츠 밑단 - 넓게 표현 -->
+    <path d="M22,60 L58,60" stroke-width="2.5"/>
+    
+    <!-- 루즈핏 이미지를 강조하기 위한 점선 -->
+    <path d="M30,30 Q40,28 50,30" stroke-dasharray="2,2"/>
+    <path d="M28,40 Q40,38 52,40" stroke-dasharray="2,2"/>
+    <path d="M26,50 Q40,48 54,50" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- 루즈핏 레이블 -->
+  <text x="40" y="70" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="10" fill="#00b2b2">LOOSE FIT</text>
+</svg>

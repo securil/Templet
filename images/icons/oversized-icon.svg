@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <title>오버사이즈 핏 아이콘</title>
+  <!-- 배경 원 -->
+  <circle cx="40" cy="40" r="38" fill="#e6f7f7" stroke="#00b2b2" stroke-width="2"/>
+  
+  <!-- 오버사이즈 티셔츠 실루엣 -->
+  <g fill="none" stroke="#00b2b2" stroke-width="2" stroke-linecap="round">
+    <!-- 중심에 사람 실루엣 -->
+    <path d="M40,22 Q40,25 37,30 Q37,30 36,32 L36,42 Q38,45 40,45 Q42,45 44,42 L44,32 Q43,30 43,30 Q40,25 40,22" fill="#e6f7f7" stroke-width="1.5"/>
+    <circle cx="40" cy="19" r="4" fill="#e6f7f7" stroke-width="1.5"/>
+    
+    <!-- 오버사이즈 티셔츠 - 매우 넓은 실루엣 -->
+    <path d="M20,30 L35,25" stroke-width="2.5"/>
+    <path d="M60,30 L45,25" stroke-width="2.5"/>
+    
+    <!-- 넓은 소매 -->
+    <path d="M20,30 L18,42" stroke-width="2.5"/>
+    <path d="M60,30 L62,42" stroke-width="2.5"/>
+    
+    <!-- 넓은 바디 -->
+    <path d="M18,42 Q19,55 22,60" stroke-width="2.5"/>
+    <path d="M62,42 Q61,55 58,60" stroke-width="2.5"/>
+    
+    <!-- 넓은 밑단 -->
+    <path d="M22,60 L58,60" stroke-width="2.5"/>
+    
+    <!-- 오버사이즈 강조를 위한 점선 실루엣 -->
+    <path d="M28,35 Q40,33 52,35" stroke-dasharray="2,2"/>
+    <path d="M25,45 Q40,43 55,45" stroke-dasharray="2,2"/>
+    <path d="M23,55 Q40,53 57,55" stroke-dasharray="2,2"/>
+  </g>
+  
+  <!-- 화살표로 오버사이즈 강조 -->
+  <g stroke="#00b2b2" stroke-width="1.5" fill="none">
+    <path d="M25,27 L15,22" stroke-linecap="round"/>
+    <path d="M15,22 L18,20" stroke-linecap="round"/>
+    <path d="M15,22 L18,24" stroke-linecap="round"/>
+    
+    <path d="M55,27 L65,22" stroke-linecap="round"/>
+    <path d="M65,22 L62,20" stroke-linecap="round"/>
+    <path d="M65,22 L62,24" stroke-linecap="round"/>
+  </g>
+  
+  <!-- 오버사이즈 레이블 -->
+  <text x="40" y="70" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="10" fill="#00b2b2">OVERSIZED</text>
+</svg>
